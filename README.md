@@ -13,3 +13,15 @@ Why multiple repos? It's personal preference, and I like having all of my soluti
 ## Why are these not optimized?
 
 These are built on readability, not speed/golf. I'd rather have usable examples that others can reference than magical golf code that is unreadable.
+
+## What are the requirements?
+
+If you want to use `get_input.py`, you just need the `requests` library. Otherwise, there are no additional requirements!
+
+## How do I get my Advent of Code session cookie for `get_input.py`?
+
+1. Go to <https://adventofcode.com/2024/day/1/input>
+2. Right click -> Inspect -> Click the "Application" tab
+3. Refresh
+4. Click <https://adventofcode.com> under "Cookies"
+5. Grab the value for session

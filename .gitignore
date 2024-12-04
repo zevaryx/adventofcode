@@ -185,3 +185,4 @@ cython_debug/
 
 # Advent of Code
 input.*
+cookie.txt
