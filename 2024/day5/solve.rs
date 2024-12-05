@@ -1,12 +1,7 @@
-use std::env;
 use std::fs;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let args = env::args().collect::<Vec<String>>();
-    if args.len() == 1 {
-        return Err("Please provide a file to process".into());
-    }
-    let file = fs::read_to_string(args.get(1).unwrap())?;
+    let file = fs::read_to_string("input.txt")?;
 
     let mut rules: Vec<Vec<i32>> = Vec::new();
     let mut updates: Vec<Vec<i32>> = Vec::new();
