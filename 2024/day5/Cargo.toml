@@ -2,5 +2,10 @@
 name = "rs"
 version = "0.1.0"
 edition = "2021"
+default-run = "solve"
 
 [dependencies]
+
+[[bin]]
+name = "solve"
+path = "rs/bin/solve.rs"
