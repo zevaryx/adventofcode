@@ -8,4 +8,4 @@ default-run = "solve"
 
 [[bin]]
 name = "solve"
-path = "rs/bin/solve.rs"
+path = "solve.rs"
